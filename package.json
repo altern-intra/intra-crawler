@@ -18,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/Wats0ns/intra-crawler/issues"
   },
-  "homepage": "https://github.com/Wats0ns/intra-crawler#readme"
+  "homepage": "https://github.com/Wats0ns/intra-crawler#readme",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "intra-api": "^1.0",
+    "mongoose": "^4.12.2"
+  }
 }
