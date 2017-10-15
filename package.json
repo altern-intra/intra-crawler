@@ -1,0 +1,22 @@
+{
+  "name": "intra-crawler",
+  "version": "1.0.0",
+  "description": " An Epitech Intranet Crawler",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wats0ns/intra-crawler.git"
+  },
+  "keywords": [
+    "epitech"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Wats0ns/intra-crawler/issues"
+  },
+  "homepage": "https://github.com/Wats0ns/intra-crawler#readme"
+}
