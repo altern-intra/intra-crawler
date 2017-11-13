@@ -1,3 +1,21 @@
 {
-  "extends": "airbnb"
+  "extends": "airbnb-base",
+  "rules": {
+    "semi": ["error", "never"],
+    "no-shadow": ["error", { "builtinGlobals": false, "hoist": "functions", "allow": ["err"] }],
+    "no-param-reassign": ["error", { "props": true, "ignorePropertyModificationsFor": ["memo", "res"] }],
+    "padded-blocks": ["off"],
+    "max-len": ["error", 150],
+    "comma-dangle": ["error", {
+      "arrays": "always-multiline",
+      "objects": "always-multiline",
+      "imports": "always-multiline",
+      "exports": "always-multiline",
+      "functions": "ignore"
+    }],
+     "object-curly-newline": ["error", {
+        ObjectExpression: { minProperties: 7, multiline: true, consistent: true },
+        ObjectPattern: { minProperties: 7, multiline: true, consistent: true }
+    }],
+  }
 }
